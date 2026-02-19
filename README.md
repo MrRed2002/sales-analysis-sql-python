@@ -6,7 +6,7 @@ This project demonstrates a sales analysis system built using:
 - SQLite
 - SQL (JOIN, GROUP BY, WHERE, Aggregations)
 
-## 📌 Features
+# Features
 
 - Relational database structure (Products & Sales)
 - Foreign key relationship
@@ -15,26 +15,21 @@ This project demonstrates a sales analysis system built using:
 - Sales report by category
 - Modular project structure
 
-## 🧱 Database Structure
+# Database Structure
 
-### Products
+@Products
 - id
 - name
 - category
 
-### Sales
+@Sales
 - id
 - product_id (Foreign Key)
 - quantity
 - price
 
-## 📊 Example Output
+# Example Output
 
 - Total revenue per product
 - Filtered sales by category
 - Aggregated quantity and revenue
-
-## 🚀 How to Run
-
-```bash
-python main.py
